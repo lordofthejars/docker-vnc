@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.seleniumhq.selenium:selenium-java:2.53.1'
+    compile 'com.github.docker-java:docker-java:3.0.0'
+}
